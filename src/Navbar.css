@@ -1,0 +1,26 @@
+.login-class
+{
+    padding:6px 12px;
+    cursor:pointer;
+}
+#region-select
+{
+    background-color:#2a2d34;
+    color:white;
+border:none;
+    padding:6px 10px;
+    border-radius:6px;
+}
+#user-dropdown
+{
+    display:none;
+    position:absolute;
+    top:40px;
+    right:0;
+    background:#2a2d34;
+    border-radius:6px;
+    padding:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.5);
+    z-index:10;
+}
+

@@ -255,7 +255,9 @@ const Sidebar = () => {
             {section.items.length > 0 && !collapsed && (
               <i className={`fas fa-chevron-${
                 expandedSections[section.title.toLowerCase()] ? 'up' : 'down'
-              }`}></i>
+              }`}
+               style={{ color: 'blue' }} 
+                ></i>
             )}
           </h2>
           

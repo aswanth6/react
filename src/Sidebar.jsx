@@ -240,7 +240,7 @@ const Sidebar = () => {
       <div className="logo">
         <img src="./assets/tcs.jpeg" alt="TCS Logo" className="expanded-logo" />
         <img 
-          src="./images/tcs_logo_small.png" 
+          src="./assets/tcs.jpeg" 
           alt="Collapsed Logo" 
           className="collapsed-logo" 
           style={{ display: collapsed ? 'block' : 'none' }} 

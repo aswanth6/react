@@ -249,17 +249,21 @@ const Sidebar = () => {
 
       {menuItems.map((section) => (
         <React.Fragment key={section.title}>
-          <h2 onClick={() => handleHeaderClick(section.title)}>
-            <i className={`fas ${section.icon}`}></i>
-            {!collapsed && <span>{section.title}</span>}
-            {section.items.length > 0 && !collapsed && (
-              <i className={`fas fa-chevron-${
-                expandedSections[section.title.toLowerCase()] ? 'up' : 'down'
-              }`}
-               style={{ color: 'lightblue' }} 
-                ></i>
-            )}
-          </h2>
+<h2 onClick={() => handleHeaderClick(section.title)}>
+  <div className="section-header">
+    <i className={`fas ${section.icon}`}></i>
+    {!collapsed && <span>{section.title}</span>}
+    {section.items.length > 0 && !collapsed && (
+      <i
+        className={`fas fa-chevron-${
+          expandedSections[section.title.toLowerCase()] ? 'up' : 'down'
+        }`}
+        style={{ color: 'lightblue' }}
+      ></i>
+    )}
+  </div>
+</h2>
+
           
           {section.items.length > 0 && (
             <ul style={{ 

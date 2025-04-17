@@ -238,7 +238,7 @@ const Sidebar = () => {
   return (
     <div className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
       <div className="logo">
-        <img src="./images/tcs_logo.png" alt="TCS Logo" className="expanded-logo" />
+        <img src="./assets/tcs.jpeg" alt="TCS Logo" className="expanded-logo" />
         <img 
           src="./images/tcs_logo_small.png" 
           alt="Collapsed Logo" 

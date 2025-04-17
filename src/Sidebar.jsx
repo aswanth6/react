@@ -256,7 +256,7 @@ const Sidebar = () => {
               <i className={`fas fa-chevron-${
                 expandedSections[section.title.toLowerCase()] ? 'up' : 'down'
               }`}
-               style={{ color: 'blue' }} 
+               style={{ color: 'lightblue' }} 
                 ></i>
             )}
           </h2>

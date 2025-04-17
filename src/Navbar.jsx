@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
         </div>
         
-        <span className="username">Shashank Kumar</span>
+        <span className="username">Aswanth G</span>
       </div>
     </div>
   );
